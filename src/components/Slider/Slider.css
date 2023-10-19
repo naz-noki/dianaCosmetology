@@ -1,0 +1,44 @@
+.Slider__wrapper{
+    width: 100%;
+    height: max-content;
+    margin: 35px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.Slider__block{
+    width: 35%;
+    height: max-content;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.Slider__slide{
+    width: max-content;
+    height: max-content;
+    transition: 350ms;
+}
+
+.Slider__controller{
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    background-color: #F09D9DF2;
+    border: 1px solid #F09D9DF2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 350ms;
+    &:hover{
+        transition: 300ms;
+        background: transparent;
+        color: #F09D9DF2;
+    }
+}

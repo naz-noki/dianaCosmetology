@@ -1,0 +1,30 @@
+.BlockWithText__wrapper{
+    width: 100%;
+    height: max-content;
+    border-radius: 15px;
+    margin: 35px auto;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.BlockWithText__title{
+    width: max-content;
+    height: max-content;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #e89aaa;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+}
+
+.BlockWithText__discription{
+    margin-top: 10px;
+    color: #e89aaa;
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    line-height: normal;
+}

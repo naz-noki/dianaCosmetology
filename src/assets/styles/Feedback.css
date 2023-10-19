@@ -1,0 +1,37 @@
+.Feedback__wrapper{
+    width: 75%;
+    height: max-content;
+    margin: 0 auto;
+}
+
+.Feedback__title{
+    width: max-content;
+    height: max-content;
+    color: #e89aaa;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    margin: 35px auto;
+}
+
+.Feedback__block{
+    width: 90%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+
+.Feedback__img{
+    width: 35%;
+    height: max-content;
+    border-radius: 15px;
+}
+
+.Feedback__sms{
+    width: 30%;
+    height: max-content;
+    border-radius: 15px;
+}

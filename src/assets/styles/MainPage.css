@@ -1,0 +1,12 @@
+@import url('./Introduction.css');
+@import url('./TableContents.css');
+@import url('./FirstChapter.css');
+@import url('./SecondChapter.css');
+@import url('./Feedback.css');
+@import url('./Footer.css');
+
+.MainPage__wrapper{
+    width: 1440px;
+    height: max-content;
+    margin: 0 auto;
+}
