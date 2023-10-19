@@ -36,11 +36,28 @@
     border-radius: 15px;
 }
 
+.Feedback__text{
+    width: max-content;
+    height: max-content;
+    color: #e89aaa;
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    margin: 35px auto;
+}
+
+.Feedback__text p{
+    width: max-content;
+    margin: 0 auto;
+}
+
 @media (max-width: 900px) {
     .Feedback__title{
         max-width: 100%;
-        font-size: 25px;
-        margin: 15px auto;
+        font-size: 23px;
+        margin: 15px;
     }
     
     .Feedback__block{
