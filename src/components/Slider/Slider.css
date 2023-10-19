@@ -42,3 +42,31 @@
         color: #F09D9DF2;
     }
 }
+
+@media (max-width: 900px) {
+    .Slider__wrapper{
+        width: 100%;
+        margin: 25px auto;
+        gap: 15px;
+    }
+    
+    .Slider__block{
+        width: 55%;
+        height: max-content;
+        aspect-ratio: 1;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Slider__slide{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .Slider__controller{
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+    }
+}

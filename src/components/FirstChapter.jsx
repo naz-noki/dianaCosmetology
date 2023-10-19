@@ -18,10 +18,10 @@ const FirstChapter = () => {
             </div>
             <ul className="FirstChapter__list">
                 <li className="FirstChapter__list_title">Что получим от хорошего базового ухода</li>
-                <li className="FirstChapter__list_item">Уменьшение количества воспалений, благодаря восполнению дефицита липидов в коже и насыщение кожи влагой.</li>
-                <li className="FirstChapter__list_item">Ровный тон лица.</li>
-                <li className="FirstChapter__list_item">Устранение сухости и обезвоженности кожи. </li>
-                <li className="FirstChapter__list_item">Возможность продуктам с активами работать на максимум и, как следствие, получение хорошего результата от применения средств.</li>
+                <li className="FirstChapter__list_item"><p>Уменьшение количества воспалений, благодаря восполнению дефицита липидов в коже и насыщение кожи влагой.</p></li>
+                <li className="FirstChapter__list_item"><p>Ровный тон лица.</p></li>
+                <li className="FirstChapter__list_item"><p>Устранение сухости и обезвоженности кожи.</p></li>
+                <li className="FirstChapter__list_item"><p>Возможность продуктам с активами работать на максимум и, как следствие, получение хорошего результата от применения средств.</p></li>
             </ul>
         </section>
     );

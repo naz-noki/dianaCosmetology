@@ -1,5 +1,5 @@
 .FirstChapter__wrapper{
-    width: 75%;
+    width: 100%;
     height: max-content;
     margin: 0 auto;
 }
@@ -18,7 +18,7 @@
 
 .FirstChapter__block{
     width: 100%;
-    min-width: 500px;
+    
     height: max-content;
     display: flex;
     align-items: center;
@@ -82,4 +82,62 @@
     font-size: 20px;
     font-style: normal;
     line-height: normal;
+}
+
+@media (max-width: 900px) {
+    .FirstChapter__wrapper{
+        width: 100%;
+    }
+    
+    .FirstChapter__title{
+        max-width: 100%;
+        height: max-content;
+        font-size: 35px;
+        margin: 15px;
+    }
+    
+    .FirstChapter__block{
+        max-width: 100%;
+        min-width: 100%;
+        height: max-content;
+        margin: 0;
+        display: block;
+    }
+    
+    .FirstChapter__blockForImg{
+        min-width: 55%;
+        max-width: 55%;
+        margin: 0 auto;
+    }
+    
+    .FirstChapter__block_text{
+        width: 90%;
+        margin: 15px auto;
+    }
+    
+    .FirstChapter__list{
+        width: 100%;
+        height: max-content;
+        margin: 35px auto;
+    }
+    
+    .FirstChapter__list_title{
+        max-width: 100%;
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    
+    .FirstChapter__list_item{
+        width: 95%;
+        height: max-content;
+        margin-top: 15px;
+        font-size: 17px;
+        font-style: normal;
+        line-height: normal;
+        padding: 10px 55px 10px 10px;
+    }
+
+    .FirstChapter__list_item p{
+        font-size: 15px;
+    }
 }

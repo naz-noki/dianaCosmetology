@@ -28,3 +28,25 @@
     font-style: normal;
     line-height: normal;
 }
+
+@media (max-width: 900px) {
+    .BlockWithText__wrapper{
+        margin: 25px auto;
+        padding: 10px;
+    }
+    
+    .BlockWithText__title{
+        max-width: 100%;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .BlockWithText__discription{
+        margin-top: 10px;
+        color: #e89aaa;
+        font-family: Lato;
+        font-size: 17px;
+    }
+}

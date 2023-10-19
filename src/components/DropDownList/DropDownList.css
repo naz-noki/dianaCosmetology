@@ -76,3 +76,21 @@
     transition: 500ms;
 }
 /*  */
+
+@media (max-width: 900px) {
+    
+    .DropDownList__block{
+        margin: 15px 0;
+        padding: 10px 0;
+    }
+    
+    .DropDownList__title{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .DropDownList__container_title{
+        max-width: 100%;
+        font-size: 20px;
+    }
+}

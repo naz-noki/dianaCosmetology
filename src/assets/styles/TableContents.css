@@ -61,5 +61,33 @@
 
 .TableContents__icon{
     width: 55px;
-    height: max-content;
+    height: 95px;
+}
+
+@media (max-width: 900px) {
+    .TableContents__wrapper{
+        width: 90%;
+    }
+    
+    .TableContents__title{
+        font-size: 35px;
+        margin: 45px auto;
+    }
+    
+    .TableContents__item{
+        width: 100%;
+        height: max-content;
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .TableContents__btn{
+        padding: 5px;
+    }
+    
+    .TableContents__link{
+        font-size: 17px;
+    }
 }

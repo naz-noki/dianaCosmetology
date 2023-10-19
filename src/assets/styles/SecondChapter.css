@@ -1,5 +1,5 @@
 .SecondChapter__wrapper{
-    width: 75%;
+    width: 100%;
     height: max-content;
     margin: 0 auto;
 }
@@ -14,4 +14,13 @@
     font-weight: bolder;
     line-height: normal;
     margin: 35px auto;
+}
+
+@media (max-width: 900px) {
+    
+    .SecondChapter__title{
+        max-width: 100%;
+        font-size: 23px;
+        margin: 25px auto;
+    }
 }
