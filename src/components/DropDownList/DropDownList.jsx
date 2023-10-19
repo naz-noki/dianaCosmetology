@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import BlockWithText from "../BlockWithText/BlockWithText";
 import Slider from "../Slider/Slider";
 import './DropDownList.css';
@@ -6,15 +6,15 @@ import './DropDownList.css';
 const DropDownList = ({
     el,
 }) => {
-    const [isActive, setIsActive] = useState(false);
+    // const [isActive, setIsActive] = useState(false);
 
-    const switchIsActive = () => {
-        setIsActive((prev) => !prev);
-    };
+    // const switchIsActive = () => {
+    //     setIsActive((prev) => !prev);
+    // };
 
     return (
         <section className='DropDownList__wrapper'>
-            <div className="DropDownList__block" onClick={() => switchIsActive()}>
+            {/* <div className="DropDownList__block" onClick={() => switchIsActive()}>
                 <div className="DropDownList__title">{el.title}</div>
                 <button
                     className={
@@ -23,11 +23,12 @@ const DropDownList = ({
                 >
                     {'<'}
                 </button>
-            </div>
+            </div> */}
                 <div 
-                    className={
-                        isActive ? "DropDownList__container DropDownList__container_active" : "DropDownList__container"
-                    }
+                    // className={
+                    //     isActive ? "DropDownList__container DropDownList__container_active" : "DropDownList__container"
+                    // }
+                    className={"DropDownList__container DropDownList__container_active"}
                 >
                     <BlockWithText
                         title={el.title}
